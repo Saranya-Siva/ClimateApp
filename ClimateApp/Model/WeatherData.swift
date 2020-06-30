@@ -9,9 +9,6 @@
 
 import Foundation
 
-struct WeatherResult : Decodable{
-    let list : [WeatherData]
-}
 struct WeatherData : Decodable{
     let name : String
     let main : Main
